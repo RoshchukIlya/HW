@@ -1,0 +1,48 @@
+@import './src/styles/normalize.css';
+
+.container {
+  background-color: rgb(109, 65, 3);
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  max-height: 100vw;
+}
+
+.logo {
+  width: auto;
+  height: 3vw;
+  margin: 10px 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: right;
+  gap: 5vw;
+  width: 70vw;
+}
+
+.nav a {
+  color: rgb(255, 219, 73);
+}
+
+.nav a:hover,
+.registration button:hover {
+  color: rgb(200, 161, 4);
+}
+
+.registration {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.registration button {
+  background-color: rgb(50, 29, 1);
+  color: rgb(255, 219, 73);
+  border: 1px solid rgb(255, 219, 73);
+  border-radius: 5%;
+  cursor: pointer;
+  position: absolute;
+  height: 50px;
+  right: 20px;
+  top: 8px;
+}
