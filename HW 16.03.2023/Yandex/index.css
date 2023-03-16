@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: blue;
+}
+
+body {
+  position: relative;
+  background-color: rgba(254, 254, 7, 0.962);
+  width: 500px;
+  height: 250px;
+  margin: 10vh auto;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  bottom: -250px;
+  left: 0px;
+}
+
+body::after {
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: rgb(28, 27, 27);
+  bottom: -250px;
+  right: 0px;
+}
