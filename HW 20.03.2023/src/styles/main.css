@@ -1,0 +1,60 @@
+@import './normalize.css';
+@import './variables.css';
+@import './header.css';
+@import './sections.css';
+
+html {
+  font-size: calc(100vw / 1440 * 10);
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: calc (100vw / 768 * 10);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: calc (100vw / 500 * 10);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: calc (100vw / 360 * 10);
+  }
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: regular;
+  font-weight: 400;
+  src: local('Inter'),
+    url('C:\Users\Ilya\Desktop\New folder\hw\HW 20.03.2023\public\accets\fonts\Inter\Inter-VariableFont_slnt,wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: medium;
+  font-weight: 500;
+  src: local('Inter'),
+    url('C:\Users\Ilya\Desktop\New folder\hw\HW 20.03.2023\public\accets\fonts\Inter\Inter-VariableFont_slnt,wght.ttf') format('truetype');
+}
+
+body {
+  max-width: 119rem;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+button {
+  padding: 1.8rem 4rem;
+  font-size: 1.6rem;
+  line-height: 19px;
+  text-transform: uppercase;
+  border-radius: 24px;
+  cursor: pointer;
+}
