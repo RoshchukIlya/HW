@@ -407,3 +407,12 @@ template {
 [hidden] {
   display: none;
 }
+
+
+/* Размеры с учётами пэддингов:
+box-sizing: border-box; */
+
+p {
+  margin: 0;
+  padding: 0;
+}
